@@ -1,6 +1,6 @@
 "use strict";
 
-require("donenv").config();
+require("dotenv").config();
 
 const Anuncio = require("../models/Anuncio");
 const connection = require("../lib/connectMongoose");
